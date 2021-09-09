@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: grid;
+}
+.card {
+    width: 250px;
+    height: 2o0px;
+    border: 1px solid black;
+}
