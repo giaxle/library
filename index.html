@@ -5,14 +5,41 @@
         <title>My Library</title>
     </head>
 <body>
-    <div>
-        <h1>My Anime Library</h1>
+    <div class="sidebar">
+        <div id="logo">
+            <h1>- My --</h1>
+            <h1>-- Anime --</h1>
+            <h1>--- Library ---</h1>
+        </div>
+        <hr>
+        <a>
+            <p>Search your library...</p>
+            <input type='search' id="searchBar" onkeyup="search()">
+        </a>
+        <hr>
+        <a>
+            <button id="addAnime">Add Series</button>
+            <div id="addAnimeForm">
+                <input id="titleInput" placeholder="Enter Title">
+                <input id="studioInput" placeholder="Studio Name">
+                <input id="episodeInput" type="number" placeholder="Number of Episodes">
+                <div id="statusContainer">
+                    <label id="statusLabel" for="statusInput">
+                        Finished?
+                        <input id="statusInput" name="statusInput" type="checkbox" value="Finished">
+                    </label>
+                    
+                </div>
+                <button class="formbtn" id="save">Save</button>
+                <button class="formbtn" id="cancel">Cancel</button>
+            </div> 
+        </a>
     </div>
     <div id="container"></div>
 
 
 
-<button id="addAnime">Add Series</button>
+
     
 <script type="text/javascript" src="scripts.js"></script>
 </body>
