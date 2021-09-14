@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <title>My Library</title>
     </head>
@@ -12,12 +13,12 @@
             <h1>--- Library ---</h1>
         </div>
         <hr>
-        <a>
+        <div>
             <p>Search your library...</p>
             <input type='search' id="searchBar" onkeyup="search()">
-        </a>
+        </div>
         <hr>
-        <a>
+        <div>
             <button id="addAnime">Add Series</button>
             <div id="addAnimeForm">
                 <input id="titleInput" placeholder="Enter Title">
@@ -33,7 +34,7 @@
                 <button class="formbtn" id="save">Save</button>
                 <button class="formbtn" id="cancel">Cancel</button>
             </div> 
-        </a>
+        </div>
     </div>
     <div id="container"></div>
 

@@ -12,6 +12,13 @@ let myAnimeLibrary = [
         episodes: 64,
         status: 'Finished',
         id: 2,
+    },
+    {
+        title: 'Jojo\'s Bizarre Adventure: The Animation',
+        studio: 'David Production',
+        episodes: 26,
+        status: 'Finished',
+        id: 3,
     }
 ];
 
