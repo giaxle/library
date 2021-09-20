@@ -59,13 +59,24 @@ myAnimeLibrary.forEach(element => {
     console.log(myAnimeLibrary)
 })
 
-// object creator
-function Anime(title, studio, episodes, status, id) {
-    this.title = title
-    this.studio = studio
-    this.episodes = episodes
-    this.status = status
-    this.id = id
+// // object creator
+// function Anime(title, studio, episodes, status, id) {
+//     this.title = title
+//     this.studio = studio
+//     this.episodes = episodes
+//     this.status = status
+//     this.id = id
+// }
+
+// anime class with constructor
+class Anime {
+    constructor(title, studio, episodes, status, id) {
+        this.title = title
+        this.studio = studio
+        this.episodes = episodes
+        this.status = status
+        this.id = id
+    }
 }
 
 // display visually in library after addition
